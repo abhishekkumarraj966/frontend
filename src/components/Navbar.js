@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className=' mx-auto'>Santosh Change</div>
+    <div className=' mx-auto'>Abhishek Change</div>
   )
 }
 
