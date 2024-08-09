@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div>Navbar Cheack...</div>
+    <div className=' mx-auto'>Santosh Change</div>
   )
 }
 
