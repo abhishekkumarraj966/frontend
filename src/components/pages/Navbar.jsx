@@ -17,7 +17,7 @@ const Navbar = () => {
   const content = (
     <div className="md:hidden block absolute top-16 w-full left-0 right-0 bg-[#130f31]  transition-transform duration-200 transform ">
       <AppLayout>
-        <ul className="text-center text-xl px-[20px] shadow-2xl  transition-transform duration-200 transform ">
+        <ul className="text-center text-xl px-[20px] shadow-2xl  transition-transform duration-200 transform pb-8">
           <li className="my-4 py-4 border-black ">
             <Link to="/about" onClick={handleClick}>
               About
@@ -38,6 +38,11 @@ const Navbar = () => {
               Contact
             </Link>
           </li>
+          <li className="transition hover:underline cursor-pointer hover:text-orange-500 px-2 py-1  rounded-xl bg-orange-500 font-[10px] w-[50%] mx-20 ">
+            <Link to="/login" onClick={handleClick}>
+              Login
+            </Link>
+          </li>
         </ul>
       </AppLayout>
     </div>
@@ -56,17 +61,20 @@ const Navbar = () => {
             <div className="md:flex md:flex-1 items-center justify-end font-normal hidden">
               <div className="flex-10">
                 <ul className="flex gap-8 mr-16 text-[18px] ">
-                  <li className="hover:text-black transition hover:underline cursor-pointer">
+                  <li className="hover:text-orange-500 transition hover:underline cursor-pointer">
                     <Link to="/about">About</Link>
                   </li>
-                  <li className="hover:text-black transition hover:underline cursor-pointer">
+                  <li className="hover:text-orange-500 transition hover:underline cursor-pointer">
                     <Link to="/services">Services</Link>
                   </li>
-                  <li className="hover:text-black transition hover:underline cursor-pointer">
+                  <li className="hover:text-orange-500 transition hover:underline cursor-pointer">
                     <Link to="/blogs">Blogs</Link>
                   </li>
-                  <li className="hover:text-black transition hover:underline cursor-pointer">
+                  <li className="hover:text-orange-500 transition hover:underline cursor-pointer">
                     <Link to="/contact">Contact</Link>
+                  </li>
+                  <li className=" transition hover:underline cursor-pointer hover:text-orange-500 px-2 py-1  rounded-xl bg-orange-500 font-[10px]">
+                    <Link to="/login">Login</Link>
                   </li>
                 </ul>
               </div>

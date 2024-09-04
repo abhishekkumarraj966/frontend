@@ -4,8 +4,8 @@ import Navbar from "./pages/Navbar"
 const Layout = () => {
   return (
     <div>
-        {/* <Navbar/>
-        <Home/> */}
+       
+        <Home/> 
     </div>
   )
 }

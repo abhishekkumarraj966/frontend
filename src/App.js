@@ -6,7 +6,8 @@ import Service from "./components/pages/Services";
 import Blogepg from "./components/pages/Bloges";
 import About from "./components/pages/About";
 import Layout from "./components/Layout";
-import { Footer}  from "./components/pages/Footer";
+import { Footer } from "./components/pages/Footer";
+import Login from "./components/pages/Login";
 function App() {
   return (
     <div className="bg-[#ECECEC]">
@@ -18,6 +19,7 @@ function App() {
           <Route path="/bloge" element={<Blogepg />} />
           <Route path="/about" element={<About />} />
           <Route path="/services" element={<Service />} />
+          <Route path="/login" element={<Login />} />
         </Routes>
         <Footer />
       </BrowserRouter>
