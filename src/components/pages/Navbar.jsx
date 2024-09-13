@@ -68,12 +68,13 @@ const Navbar = () => {
                     <Link to="/services">Services</Link>
                   </li>
                   <li className="hover:text-orange-500 transition hover:underline cursor-pointer">
-                    <Link to="/blogs">Blogs</Link>
+                    <Link to="/blogs">Blogs</Link> {/* Match with /blogs */}
                   </li>
                   <li className="hover:text-orange-500 transition hover:underline cursor-pointer">
-                    <Link to="/contact">Contact</Link>
+                    <Link to="/contact">Contact</Link>{" "}
+                    {/* Match with /contact */}
                   </li>
-                  <li className=" transition hover:underline cursor-pointer hover:text-orange-500 px-2 py-1  rounded-xl bg-orange-500 font-[10px]">
+                  <li className="transition hover:underline cursor-pointer hover:text-black px-2 py-1 rounded-xl bg-orange-500 font-[10px]">
                     <Link to="/login">Login</Link>
                   </li>
                 </ul>
